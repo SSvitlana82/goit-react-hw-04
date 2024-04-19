@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import css from './LoadMoreBtn.module.css';
 
 const LoadMoreBtn = ({ loadMore }) => {
   return (

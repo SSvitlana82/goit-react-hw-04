@@ -7,7 +7,7 @@ const per_page = 15;
 export async function searchImages(query, page) {
   const params = {
     client_id: API_KEY,
-    orientation: 'portrait',
+    orientation: 'landscape',
     page: page,
     per_page: per_page,
     query: query,
