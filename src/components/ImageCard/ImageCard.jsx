@@ -5,6 +5,7 @@ const ImageCard = ({ imageInfo, openModal }) => {
     <div>
       <div>
         <img
+          className={css.item}
           src={imageInfo.urls.small}
           alt={imageInfo.description}
           onClick={() => {
